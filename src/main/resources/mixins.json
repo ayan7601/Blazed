@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.nnpg.glazed.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "client": [
+    "HandledScreenMixin",
+    "DefaultSettingsWidgetFactoryAccessor",
+    "DefaultSettingsWidgetFactoryMixin",
+    "CrystalTweaksMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
