@@ -32,7 +32,7 @@
 | Auto Blaze Rod Order | Buys/sells blaze rods in orders for profit (FAST MODE) |
 | Auto Order | Automatically orders items from the server shop |
 | Auto Pearl Chain | Chains pearls after teleport detection |
-| Auto Mine |  Automatically mines the selected items byy using baritone Api |
+| Auto Mine |  Automatically mines the selected items |
 | Auto Sell | Automatically sells items |
 | Auto Shulker Order | Buys shulkers + sells in orders with player targeting & blacklist |
 | Auto Shulker Shell Order | Buys shulker shells + sells in orders for profit (FAST MODE) |
