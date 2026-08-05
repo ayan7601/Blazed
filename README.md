@@ -16,7 +16,7 @@
 
 **Blazed** is a free Meteor Client addon designed specifically for servers. I made this to automate the boring and repetitive tasks I kept doing in-game and to give others access to high-quality tools **without paying**. I've seen many paid clients that do less than this one — this is my free alternative.
 
-**78 modules** across 3 categories. Minecraft **1.21.4, 1.21.10, 1.21.11**.
+**79 modules** across 3 categories. Minecraft **1.21.4, 1.21.10, 1.21.11**.
 
 ---
 
@@ -166,16 +166,6 @@ Pair your Blazed setup with these built-in Meteor modules for max efficiency:
 
 ---
 
-## 📢Join the Discord
-
-> 💬**[Join the Discord](https://discord.gg/blazed)** for:
-> - 💸Giveaways
-> - 📢Announcements
-> - 🔍Support
-> - 💡Suggestions
-
----
-
 ## 📥 Installation
 
 1. 🔽**Download Meteor Client**
@@ -204,7 +194,6 @@ Huge thanks to the projects that make this addon possible:
 - [Baritone](https://github.com/cabaletta/baritone)
 - [FabricMC](https://fabricmc.net/)
 - [Claude AI](https://claude.ai/)
-- [aurickk](https://github.com/aurickk)
 - Github Contributors
 
 ---
