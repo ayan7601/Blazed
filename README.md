@@ -1,14 +1,8 @@
 # Blazed
-<p align="center">
-  <img src="https://nnpg.dev/Blazedlogo.png" alt="Blazed Addon Banner" width="300"/>
-</p>
 
-<p align="center">
-  <a href="https://github.com/realnnpg/Blazed/releases"><img src="https://img.shields.io/github/downloads/realnnpg/Blazed/total.svg?style=for-the-badge&label=Downloads" alt="Downloads"/></a>
-  <img src="https://img.shields.io/github/stars/realnnpg/Blazed?style=for-the-badge" alt="Stars"/>
-  <img src="https://img.shields.io/github/repo-size/realnnpg/Blazed?style=for-the-badge" alt="Repo Size"/>
-  <a href="https://discord.gg/yBbTUB243X"><img src="https://img.shields.io/discord/1282076342908747879?color=%237289DA&label=Discord&logo=discord&logoColor=white&style=for-the-badge" alt="Discord"/></a>
-</p>
+![Blazed Addon Banner](src/main/resources/assets/template/icon.png)
+
+[![Downloads](https://img.shields.io/github/downloads/ayan7601/Blazed/total.svg?style=for-the-badge&label=Downloads)](https://github.com/ayan7601/Blazed/releases) [![Stars](https://img.shields.io/github/stars/ayan7601/Blazed?style=for-the-badge)](https://github.com/ayan7601/Blazed) [![Repo Size](https://img.shields.io/github/repo-size/ayan7601/Blazed?style=for-the-badge)](https://github.com/ayan7601/Blazed) [![Discord](https://img.shields.io/badge/Discord-Join%20Community-007ec6?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/yBbTUB243X)
 
 ---
 
@@ -16,7 +10,7 @@
 
 **Blazed** is a free Meteor Client addon designed specifically for servers. I made this to automate the boring and repetitive tasks I kept doing in-game and to give others access to high-quality tools **without paying**. I've seen many paid clients that do less than this one — this is my free alternative.
 
-**79 modules** across 3 categories. Minecraft **1.21.4, 1.21.10, 1.21.11**.
+**79 modules** across 3 categories. Minecraft **1.21.4, 1.21.10, 1.21.11, 26.1.2**.
 
 ---
 
@@ -136,46 +130,34 @@ Pair your Blazed setup with these built-in Meteor modules for max efficiency:
 
 ## ❓FAQ
 
-<details>
-  <summary><strong>🔒Is it safe to use?</strong></summary>
-  <p>
-    Yes, it's completely open-source. There are no token loggers, backdoors, or obfuscation. If you're unsure, feel free to inspect the code or compile it yourself.
-  </p>
-</details>
+### 🔒 Is it safe to use?
 
-<details>
-  <summary><strong>❔Why is it free?</strong></summary>
-  <p>
-    I made this addon to help DonutSMP players automate boring tasks without paying ridiculous prices for private clients. It's a free, powerful alternative.
-  </p>
-</details>
+Yes, it's completely open-source. There are no token loggers, backdoors, or obfuscation. If you're unsure, feel free to inspect the code or compile it yourself.
 
-<details>
-  <summary><strong>📦Can I use this on other servers?</strong></summary>
-  <p>
-    This addon was made specifically for DonutSMP, and most features are designed to work only there (e.g., Auction Sniper, Auto Sell, RTP Base Finder). While some basic modules may still work elsewhere, the full functionality is best experienced on DonutSMP.
-  </p>
-</details>
+### ❔ Why is it free?
 
-<details>
-  <summary><strong>🛠️How do I get updates?</strong></summary>
-  <p>
-    Join the <a href="https://discord.gg/blazed">Discord server</a> for update announcements, changelogs, and early access to new modules. You can also star/watch the GitHub repo.
-  </p>
-</details>
+I made this addon to help DonutSMP players automate boring tasks without paying ridiculous prices for private clients. It's a free, powerful alternative.
+
+### 📦 Can I use this on other servers?
+
+This addon was made specifically for DonutSMP, and most features are designed to work only there (e.g., Auction Sniper, Auto Sell, RTP Base Finder). While some basic modules may still work elsewhere, the full functionality is best experienced on DonutSMP.
+
+### 🛠️ How do I get updates?
+
+Join the [Discord server](https://discord.gg/yBbTUB243X) for update announcements, changelogs, and early access to new modules. You can also star/watch the GitHub repo.
 
 ---
 
 ## 📥 Installation
 
-1. 🔽**Download Meteor Client**
-   From: https://meteorclient.com/
+1. 🔽 **Download Meteor Client**
+   From: [Meteor Client](https://meteorclient.com/)
 
 2. 🔽 **Download Baritone**
-   From: https://meteorclient.com/
+   From: [Baritone](https://meteorclient.com/)
 
-3. 🧵**Install Fabric Loader**
-   Download from: https://fabricmc.net/use/
+3. 🧵 **Install Fabric Loader**
+   Download from: [Fabric Loader](https://fabricmc.net/use/)
 
 4. 🧩**Put Meteor Client and this addon in `.minecraft/mods`**
     - Locate your `.minecraft` folder (type `%appdata%` on Windows search)

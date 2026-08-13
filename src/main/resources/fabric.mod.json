@@ -4,18 +4,18 @@
   "version": "${version}",
   "name": "Blazed",
   "description": "An Addon made for donutsmp",
-  "authors": ["nnpg"],
+  "authors": ["ayan7601"],
   "contact": {
     "homepage": "https://blazedclient.com",
-    "repo": "https://github.com/realnnpg/",
+    "repo": "https://github.com/ayan7601/",
     "discord": "https://discord.gg/blazed"
   },
   "license": "All Rights Reserved",
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
-    "meteor": ["com.nnpg.blazed.BlazedAddon"],
-    "mixinsquared": ["com.nnpg.blazed.mixin.MeteorMixinCanceller"]
+    "meteor": ["com.ayan7601.blazed.BlazedAddon"],
+    "mixinsquared": ["com.ayan7601.blazed.mixin.MeteorMixinCanceller"]
   },
   "mixins": ["blazed-mixins.json", "blazed-mixin.json"],
   "custom": {
