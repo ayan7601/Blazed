@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "blazed",
+  "version": "${version}",
+  "name": "Blazed",
+  "description": "An Addon made for donutsmp",
+  "authors": [
+    "ayan7601",
+    "AR3"
+  ],
+  "contact": {
+    "homepage": "https://blazedclient.com",
+    "repo": "https://github.com/ayan7601/",
+    "discord": "https://discord.gg/blazed"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.ayan7601.blazed.BlazedAddon"
+    ],
+  "mixinsquared": [
+    "com.ayan7601.blazed.mixins.MeteorMixinCanceller"
+  ]
+  },
+  "mixins": [
+    "mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "225,25,25",
+    "modmenu": {
+      "links": {
+        "modmenu.website": "https://blazedclient.com",
+        "modmenu.discord": "https://discord.gg/blazed"
+      }
+    }
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": ["${mc_version}"],
+    "meteor-client": "*"
+  }
+}
