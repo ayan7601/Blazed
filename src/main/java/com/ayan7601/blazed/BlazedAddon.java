@@ -116,6 +116,7 @@ public class BlazedAddon extends MeteorAddon {
         Modules.get().add(new LayerLock());
         Modules.get().add(new ItemESP());
         Modules.get().add(new FastXP());
+        Modules.get().add(new DiscordRichPresence());
 
         // Commands
         Commands.add(new SellHotbarCommand());
