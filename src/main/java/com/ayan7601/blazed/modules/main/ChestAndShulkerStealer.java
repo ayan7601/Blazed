@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.IntSetting;
 import meteordevelopment.meteorclient.settings.Setting;
@@ -28,7 +28,7 @@ public class ChestAndShulkerStealer extends Module {
     private int currentSlot = 0;
 
     public ChestAndShulkerStealer() {
-        super(GlazedAddon.CATEGORY, "storage-stealer", "Steals items from chests and shulkers.");
+        super(BlazedAddon.CATEGORY, "storage-stealer", "Steals items from chests and shulkers.");
     }
     
     @Override

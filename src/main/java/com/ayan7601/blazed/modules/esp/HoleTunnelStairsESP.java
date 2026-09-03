@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import it.unimi.dsi.fastutil.longs.Long2ObjectMap;
 import it.unimi.dsi.fastutil.longs.Long2ObjectOpenHashMap;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
@@ -219,7 +219,7 @@ public class HoleTunnelStairsESP extends Module {
     private final Set<Box> holes3x1 = Collections.newSetFromMap(new ConcurrentHashMap<>());
 
     public HoleTunnelStairsESP() {
-        super(GlazedAddon.esp, "hole-tunnel-stair-esp", "Finds and highlights holes and tunnels and stairs.");
+        super(BlazedAddon.esp, "hole-tunnel-stair-esp", "Finds and highlights holes and tunnels and stairs.");
     }
 
     public Set<Box> getHoles() {

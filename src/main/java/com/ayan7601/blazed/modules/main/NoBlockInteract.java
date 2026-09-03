@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
@@ -18,7 +18,7 @@ public class NoBlockInteract extends Module {
     private final MinecraftClient mc = MinecraftClient.getInstance();
 
     public NoBlockInteract() {
-        super(GlazedAddon.CATEGORY, "no-block-interact", "Lets you pearl through containers by blocking GUI interactions but still throwing pearls.");
+        super(BlazedAddon.CATEGORY, "no-block-interact", "Lets you pearl through containers by blocking GUI interactions but still throwing pearls.");
     }
 
     private final Set<Block> blockedBlocks = Set.of(

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.gui.themes.meteor;
+package com.ayan7601.blazed.gui.themes.meteor;
 
-import com.nnpg.glazed.gui.widgets.WRandomBetweenSlider;
+import com.ayan7601.blazed.gui.widgets.WRandomBetweenSlider;
 import meteordevelopment.meteorclient.gui.renderer.GuiRenderer;
 import meteordevelopment.meteorclient.utils.render.color.Color;
 

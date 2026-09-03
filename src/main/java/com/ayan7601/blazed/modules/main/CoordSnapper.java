@@ -1,8 +1,8 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import net.minecraft.util.math.BlockPos;
@@ -54,7 +54,7 @@ public class CoordSnapper extends Module {
     );
 
     public CoordSnapper() {
-        super(GlazedAddon.CATEGORY, "coord-snapper", "Copies your coordinates to clipboard and optionally sends them via webhook.");
+        super(BlazedAddon.CATEGORY, "coord-snapper", "Copies your coordinates to clipboard and optionally sends them via webhook.");
     }
 
     @Override
@@ -95,7 +95,7 @@ public class CoordSnapper extends Module {
                 connection.setDoOutput(true);
 
                 JsonObject json = new JsonObject();
-                json.addProperty("username", "Glazed Webhook");
+                json.addProperty("username", "Blazed Webhook");
                 json.addProperty("avatar_url", "https://i.imgur.com/OL2y1cr.png");
 
                 String messageContent = "";
@@ -111,7 +111,7 @@ public class CoordSnapper extends Module {
                 embed.addProperty("timestamp", Instant.now().toString());
 
                 JsonObject footer = new JsonObject();
-                footer.addProperty("text", "Sent by Glazed");
+                footer.addProperty("text", "Sent by Blazed");
                 embed.add("footer", footer);
 
                 JsonArray embeds = new JsonArray();

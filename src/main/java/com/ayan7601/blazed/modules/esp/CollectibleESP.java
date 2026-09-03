@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
 import meteordevelopment.meteorclient.settings.*;
@@ -189,7 +189,7 @@ public class CollectibleESP extends Module {
     );
 
     public CollectibleESP() {
-        super(GlazedAddon.esp,"collectible-esp", "Highlights collectible items in item frames and banners!");
+        super(BlazedAddon.esp,"collectible-esp", "Highlights collectible items in item frames and banners!");
     }
 
     @EventHandler

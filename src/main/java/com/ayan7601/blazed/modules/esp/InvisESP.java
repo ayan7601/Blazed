@@ -1,4 +1,4 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;

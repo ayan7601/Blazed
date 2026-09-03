@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.meteorclient.utils.player.InvUtils;
@@ -33,7 +33,7 @@ public class WindPearlMacro extends Module {
     private int previousSlot = -1;
 
     public WindPearlMacro() {
-        super(GlazedAddon.pvp, "pearl-wind-macro", "Throws pearl first, then uses wind charge after delay.");
+        super(BlazedAddon.pvp, "pearl-wind-macro", "Throws pearl first, then uses wind charge after delay.");
     }
 
     @Override

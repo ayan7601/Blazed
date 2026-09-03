@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.gui.widgets.WWidget;
 import meteordevelopment.meteorclient.gui.GuiTheme;
@@ -78,7 +78,7 @@ public class RainNoti extends Module {
         .build();
 
     public RainNoti() {
-        super(GlazedAddon.CATEGORY, "rain-noti", "Notifies when it starts raining in-game.");
+        super(BlazedAddon.CATEGORY, "rain-noti", "Notifies when it starts raining in-game.");
     }
 
     @EventHandler

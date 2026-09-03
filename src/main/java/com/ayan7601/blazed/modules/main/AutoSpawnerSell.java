@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
@@ -55,7 +55,7 @@ public class AutoSpawnerSell extends Module {
     private boolean isPageSwitching = false;
 
     public AutoSpawnerSell() {
-        super(GlazedAddon.CATEGORY, "auto-spawner-sell", "Automatically drops bones from spawner and sells them");
+        super(BlazedAddon.CATEGORY, "auto-spawner-sell", "Automatically drops bones from spawner and sells them");
     }
 
     @EventHandler

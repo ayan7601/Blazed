@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
 import meteordevelopment.meteorclient.settings.*;
@@ -162,7 +162,7 @@ public class LightESP extends Module {
     private static final long SCAN_INTERVAL = 500; // Scan every 500ms
 
     public LightESP() {
-        super(GlazedAddon.esp, "light-esp", "Improved light source detection");
+        super(BlazedAddon.esp, "light-esp", "Improved light source detection");
     }
 
     @Override

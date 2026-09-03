@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -52,7 +52,7 @@ public class KeyPearl extends Module {
     private boolean keyPressedLastTick = false;
 
     public KeyPearl() {
-        super(GlazedAddon.pvp, "key-pearl", "Switches to an ender pearl and throws it when you press the bind.");
+        super(BlazedAddon.pvp, "key-pearl", "Switches to an ender pearl and throws it when you press the bind.");
     }
 
     @EventHandler

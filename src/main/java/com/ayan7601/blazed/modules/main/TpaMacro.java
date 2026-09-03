@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 //imports
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -60,7 +60,7 @@ public class TpaMacro extends Module {
     }
 
     public TpaMacro() {
-        super(GlazedAddon.CATEGORY, "tpa-macro", "Spams /tpa or /tpahere and clicks the confirmation.");
+        super(BlazedAddon.CATEGORY, "tpa-macro", "Spams /tpa or /tpahere and clicks the confirmation.");
     }
 
     @Override

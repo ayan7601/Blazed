@@ -1,8 +1,8 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.utils.glazed.BlockUtil;
-import com.nnpg.glazed.utils.glazed.KeyUtils;
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.utils.blazed.BlockUtil;
+import com.ayan7601.blazed.utils.blazed.KeyUtils;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -79,7 +79,7 @@ public class CrystalMacro extends Module {
     private long resumeTime = 0;
 
     public CrystalMacro() {
-        super(GlazedAddon.pvp, "crystal-macro", "Automatically crystals fast for you");
+        super(BlazedAddon.pvp, "crystal-macro", "Automatically crystals fast for you");
     }
 
     @Override

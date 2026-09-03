@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
@@ -741,7 +741,7 @@ public class PremiumTunnelBaseFinder extends Module {
     private boolean isValidWebhook = false;
 
     public PremiumTunnelBaseFinder() {
-        super(GlazedAddon.CATEGORY, "premium-tunnel-base-finder", "Advanced tunnel mining with enhanced lava detection, pearl-through feature, and improved safety systems.");
+        super(BlazedAddon.CATEGORY, "premium-tunnel-base-finder", "Advanced tunnel mining with enhanced lava detection, pearl-through feature, and improved safety systems.");
     }
 
     @Override

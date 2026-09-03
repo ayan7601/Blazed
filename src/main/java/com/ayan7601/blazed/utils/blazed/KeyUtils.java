@@ -1,4 +1,4 @@
-package com.nnpg.glazed.utils.glazed;
+package com.ayan7601.blazed.utils.blazed;
 
 import org.apache.commons.lang3.StringUtils;
 import org.lwjgl.glfw.GLFW;

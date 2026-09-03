@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.meteorclient.settings.Setting;
 import meteordevelopment.meteorclient.settings.SettingGroup;
@@ -27,7 +27,7 @@ public class HomeReset extends Module {
     );
 
     public HomeReset() {
-        super(GlazedAddon.CATEGORY, "home-reset", "Automatically runs /delhome and /sethome for a selected slot.");
+        super(BlazedAddon.CATEGORY, "home-reset", "Automatically runs /delhome and /sethome for a selected slot.");
     }
 
     @Override

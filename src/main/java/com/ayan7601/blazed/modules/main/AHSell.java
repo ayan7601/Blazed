@@ -1,7 +1,7 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.VersionUtil;
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.VersionUtil;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.events.game.ReceiveMessageEvent;
 import meteordevelopment.meteorclient.settings.*;
@@ -60,7 +60,7 @@ public class AHSell extends Module {
     private int currentSlot = 0;
 
     public AHSell() {
-        super(GlazedAddon.CATEGORY, "ah-sell", "Automatically sells all hotbar items using /ah sell.");
+        super(BlazedAddon.CATEGORY, "ah-sell", "Automatically sells all hotbar items using /ah sell.");
     }
 
     @Override

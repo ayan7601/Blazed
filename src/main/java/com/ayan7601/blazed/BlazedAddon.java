@@ -1,8 +1,8 @@
-package com.nnpg.glazed;
+package com.ayan7601.blazed;
 
-import com.nnpg.glazed.modules.esp.*;
-import com.nnpg.glazed.modules.main.*;
-import com.nnpg.glazed.modules.pvp.*;
+import com.ayan7601.blazed.modules.esp.*;
+import com.ayan7601.blazed.modules.main.*;
+import com.ayan7601.blazed.modules.pvp.*;
 import meteordevelopment.meteorclient.addons.MeteorAddon;
 import meteordevelopment.meteorclient.systems.modules.Modules;
 import meteordevelopment.meteorclient.systems.modules.Category;
@@ -12,11 +12,11 @@ import meteordevelopment.meteorclient.events.game.GameLeftEvent;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 
-public class GlazedAddon extends MeteorAddon {
+public class BlazedAddon extends MeteorAddon {
 
-    public static final Category CATEGORY = new Category("Glazed", new ItemStack(Items.CAKE));
-    public static final Category esp = new Category("Glazed ESP ", new ItemStack(Items.VINE));
-    public static final Category pvp = new Category("Glazed PVP", new ItemStack(Items.DIAMOND_SWORD));
+    public static final Category CATEGORY = new Category("Blazed", new ItemStack(Items.CAKE));
+    public static final Category esp = new Category("Blazed ESP ", new ItemStack(Items.VINE));
+    public static final Category pvp = new Category("Blazed PVP", new ItemStack(Items.DIAMOND_SWORD));
 
     public static int MyScreenVERSION = 16;
 
@@ -122,6 +122,6 @@ public class GlazedAddon extends MeteorAddon {
 
     @Override
     public String getPackage() {
-        return "com.nnpg.glazed";
+        return "com.ayan7601.blazed";
     }
 }

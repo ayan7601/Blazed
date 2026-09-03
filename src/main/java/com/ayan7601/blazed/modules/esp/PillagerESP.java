@@ -1,4 +1,4 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
 import java.io.IOException;
 import java.net.URI;
@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
@@ -156,7 +156,7 @@ public class PillagerESP extends Module {
     }
 
     public PillagerESP() {
-        super(GlazedAddon.esp, "pillager-esp", "ESP for pillagers with tracers, webhook notifications and info display");
+        super(BlazedAddon.esp, "pillager-esp", "ESP for pillagers with tracers, webhook notifications and info display");
     }
 
     @Override
@@ -294,7 +294,7 @@ public class PillagerESP extends Module {
                         "{\"name\":\"Coordinates\",\"value\":\"%s\",\"inline\":false}," +
                         "{\"name\":\"Time\",\"value\":\"<t:%d:R>\",\"inline\":true}" +
                         "]," +
-                        "\"footer\":{\"text\":\"Sent by Glazed\"}" +
+                        "\"footer\":{\"text\":\"Sent by Blazed\"}" +
                         "}]}",
                     messageContent.replace("\"", "\\\""),
                     description.replace("\"", "\\\""),

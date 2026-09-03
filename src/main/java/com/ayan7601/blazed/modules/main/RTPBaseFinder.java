@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -24,7 +24,7 @@ public class RTPBaseFinder extends Module {
     private long lastTeleportTime = 0;
 
     public RTPBaseFinder() {
-        super(GlazedAddon.CATEGORY, "rtp-base-finder", "Aimbots downward, holds left click to mine to Y=-58, then runs /rtp east.");
+        super(BlazedAddon.CATEGORY, "rtp-base-finder", "Aimbots downward, holds left click to mine to Y=-58, then runs /rtp east.");
     }
 
     @Override

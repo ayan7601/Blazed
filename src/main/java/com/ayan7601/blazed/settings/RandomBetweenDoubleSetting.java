@@ -1,6 +1,6 @@
-package com.nnpg.glazed.settings;
+package com.ayan7601.blazed.settings;
 
-import com.nnpg.glazed.utils.RandomBetweenDouble;
+import com.ayan7601.blazed.utils.RandomBetweenDouble;
 import meteordevelopment.meteorclient.settings.*;
 import net.minecraft.nbt.NbtCompound;
 

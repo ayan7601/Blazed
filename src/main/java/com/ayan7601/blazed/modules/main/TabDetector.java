@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -46,7 +46,7 @@ public class TabDetector extends Module {
     private final Set<String> previousTargetPlayers = new HashSet<>();
 
     public TabDetector() {
-        super(GlazedAddon.CATEGORY, "tab-detector", "Detects when specific players join or leave the server");
+        super(BlazedAddon.CATEGORY, "tab-detector", "Detects when specific players join or leave the server");
     }
 
     @EventHandler

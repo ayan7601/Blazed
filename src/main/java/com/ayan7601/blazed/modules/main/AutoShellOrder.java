@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -93,7 +93,7 @@ public class AutoShellOrder extends Module {
     );
 
     public AutoShellOrder() {
-        super(GlazedAddon.CATEGORY, "auto-shell-order", "Automatically buys shulker shells and sells them in orders with player targeting");
+        super(BlazedAddon.CATEGORY, "auto-shell-order", "Automatically buys shulker shells and sells them in orders with player targeting");
     }
 
     @Override

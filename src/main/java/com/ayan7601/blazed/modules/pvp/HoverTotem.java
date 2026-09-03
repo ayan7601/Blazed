@@ -1,7 +1,7 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.mixins.HandledScreenMixin;
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.mixins.HandledScreenMixin;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -54,7 +54,7 @@ public class HoverTotem extends Module {
     private int remainingDelay;
 
     public HoverTotem() {
-        super(GlazedAddon.pvp, "hover-totem", "Equips a totem in offhand and optionally hotbar when hovering over one in inventory.");
+        super(BlazedAddon.pvp, "hover-totem", "Equips a totem in offhand and optionally hotbar when hovering over one in inventory.");
     }
 
     @Override
@@ -124,7 +124,7 @@ public class HoverTotem extends Module {
         try {
             // Try using the mixin first
             if (screen instanceof HandledScreenMixin mixin) {
-                return mixin.glazed$getFocusedSlot();
+                return mixin.blazed$getFocusedSlot();
             }
 
             // Fallback to reflection

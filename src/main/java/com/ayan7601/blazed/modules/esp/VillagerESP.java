@@ -1,7 +1,7 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.VersionUtil; // For 1.21.4 - change to VersionUtil2 for 1.21.5
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.VersionUtil; // For 1.21.4 - change to VersionUtil2 for 1.21.5
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -122,7 +122,7 @@ public class VillagerESP extends Module {
         .build();
 
     public VillagerESP() {
-        super(GlazedAddon.esp, "villager-esp", "Detects villagers and zombie villagers in the world");
+        super(BlazedAddon.esp, "villager-esp", "Detects villagers and zombie villagers in the world");
     }
 
     @EventHandler
@@ -289,7 +289,7 @@ public class VillagerESP extends Module {
                         "\"color\":65280," +
                         "\"thumbnail\":{\"url\":\"https://i.imgur.com/OL2y1cr.png\"}," +
                         "\"fields\":[%s]," +
-                        "\"footer\":{\"text\":\"Sent by Glazed\"}" +
+                        "\"footer\":{\"text\":\"Sent by Blazed\"}" +
                         "}]}",
                     messageContent.replace("\"", "\\\""),
                     description.replace("\"", "\\\""),

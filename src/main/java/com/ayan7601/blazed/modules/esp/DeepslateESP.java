@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
@@ -109,7 +109,7 @@ public class DeepslateESP extends Module {
     private ExecutorService threadPool;
 
     public DeepslateESP() {
-        super(GlazedAddon.esp, "deepslate-esp", "ESP for deepslate blocks with threading and tracer support.");
+        super(BlazedAddon.esp, "deepslate-esp", "ESP for deepslate blocks with threading and tracer support.");
     }
 
     @Override

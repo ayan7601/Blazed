@@ -1,11 +1,11 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.meteorclient.utils.player.FindItemResult;
 import meteordevelopment.meteorclient.utils.player.InvUtils;
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.AxeItem;
@@ -146,7 +146,7 @@ public class ShieldBreaker extends Module {
     }
 
     public ShieldBreaker() {
-        super(GlazedAddon.pvp, "shield-breaker", "Automatically breaks player shields with axe then switches back to weapon for kill.");
+        super(BlazedAddon.pvp, "shield-breaker", "Automatically breaks player shields with axe then switches back to weapon for kill.");
     }
 
     @Override
@@ -213,7 +213,7 @@ public class ShieldBreaker extends Module {
                 if (!autoBreak.get() && isAttacking) {
                     // Manual mode - Store current slot FIRST before any swaps
                     // PlayerInventory no longer exposes getSelectedSlot(); use the selectedSlot field instead
-                    originalSlot = com.nnpg.glazed.utils.InventoryUtils.getSelectedSlot(mc.player.getInventory());
+                    originalSlot = com.ayan7601.blazed.utils.InventoryUtils.getSelectedSlot(mc.player.getInventory());
 
                     // Find axe in hotbar
                     FindItemResult axeResult = InvUtils.findInHotbar(itemStack -> itemStack.getItem() instanceof AxeItem);
@@ -238,7 +238,7 @@ public class ShieldBreaker extends Module {
                     // Auto mode - use state machine
                     if (originalSlot == -1) {
                         // PlayerInventory no longer exposes getSelectedSlot(); use the selectedSlot field instead
-                        originalSlot = com.nnpg.glazed.utils.InventoryUtils.getSelectedSlot(mc.player.getInventory());
+                        originalSlot = com.ayan7601.blazed.utils.InventoryUtils.getSelectedSlot(mc.player.getInventory());
                     }
                     
                     FindItemResult axeResult = InvUtils.findInHotbar(itemStack -> itemStack.getItem() instanceof AxeItem);

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -61,7 +61,7 @@ public class DrownedTridentESP extends Module {
     }
 
     public DrownedTridentESP() {
-        super(GlazedAddon.esp, "drowned-trident-esp", "Highlights Drowned mobs holding tridents with optional tracers.");
+        super(BlazedAddon.esp, "drowned-trident-esp", "Highlights Drowned mobs holding tridents with optional tracers.");
     }
 
     @EventHandler

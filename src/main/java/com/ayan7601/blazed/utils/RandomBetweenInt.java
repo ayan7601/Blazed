@@ -1,4 +1,4 @@
-package com.nnpg.glazed.utils;
+package com.ayan7601.blazed.utils;
 
 import java.util.Random;
 

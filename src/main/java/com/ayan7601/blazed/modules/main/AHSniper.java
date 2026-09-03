@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
@@ -131,7 +131,7 @@ public class AHSniper extends Module {
     private final HttpClient httpClient;
 
     public AHSniper() {
-        super(GlazedAddon.CATEGORY, "ah-sniper", "Automatically snipes items from auction house for cheap prices.");
+        super(BlazedAddon.CATEGORY, "ah-sniper", "Automatically snipes items from auction house for cheap prices.");
         this.sgGeneral = this.settings.getDefaultGroup();
         this.sgMultiSnipe = this.settings.createGroup("Multi-Snipe Items");
         this.sgEnchantments = this.settings.createGroup("Enchantments");
@@ -1618,7 +1618,7 @@ public class AHSniper extends Module {
         String savingsStr = this.formatPrice(Math.abs(savings));
         String savingsPercentage = String.format("%.1f%%", savings / maxPriceValue * 100.0);
 
-        String webhookUsernameHardcoded = "Glazed AH Sniper";
+        String webhookUsernameHardcoded = "Blazed AH Sniper";
         String webhookAvatarUrlHardcoded = "https://i.imgur.com/OL2y1cr.png";
         String webhookThumbnailUrlHardcoded = "https://i.imgur.com/OL2y1cr.png";
 
@@ -1634,7 +1634,7 @@ public class AHSniper extends Module {
 
         String modeText = this.snipeMode.get() == SnipeMode.MULTI ? "Multi-Snipe" : "Single-Snipe";
 
-        return String.format("{\"content\":\"%s\",\"username\":\"%s\",\"avatar_url\":\"%s\",\"embeds\":[{\"title\":\"Glazed AH Sniper Alert [%s]\",\"description\":\"%s\",\"color\":8388736,\"thumbnail\":{\"url\":\"%s\"},\"fields\":[{\"name\":\"\ud83d\udce6 Item\",\"value\":\"%s x%d\",\"inline\":true},{\"name\":\"\ud83d\udcb0 Purchase Price\",\"value\":\"%s\",\"inline\":true},{\"name\":\"\ud83d\udcb5 Max Price\",\"value\":\"%s (%s)\",\"inline\":true},{\"name\":\"\u2728 Enchantments\",\"value\":\"%s\",\"inline\":false},{\"name\":\"\u23f0 Time\",\"value\":\"<t:%d:R>\",\"inline\":true}],\"footer\":{\"text\":\"Glazed AH Sniper V2\"},\"timestamp\":\"%s\"}]}",
+        return String.format("{\"content\":\"%s\",\"username\":\"%s\",\"avatar_url\":\"%s\",\"embeds\":[{\"title\":\"Blazed AH Sniper Alert [%s]\",\"description\":\"%s\",\"color\":8388736,\"thumbnail\":{\"url\":\"%s\"},\"fields\":[{\"name\":\"\ud83d\udce6 Item\",\"value\":\"%s x%d\",\"inline\":true},{\"name\":\"\ud83d\udcb0 Purchase Price\",\"value\":\"%s\",\"inline\":true},{\"name\":\"\ud83d\udcb5 Max Price\",\"value\":\"%s (%s)\",\"inline\":true},{\"name\":\"\u2728 Enchantments\",\"value\":\"%s\",\"inline\":false},{\"name\":\"\u23f0 Time\",\"value\":\"<t:%d:R>\",\"inline\":true}],\"footer\":{\"text\":\"Blazed AH Sniper V2\"},\"timestamp\":\"%s\"}]}",
             this.escapeJson(messageContent), this.escapeJson(webhookUsernameHardcoded), this.escapeJson(webhookAvatarUrlHardcoded),
             modeText, this.escapeJson(description), this.escapeJson(webhookThumbnailUrlHardcoded),
             this.escapeJson(itemName), quantity, this.escapeJson(actualPriceStr),
@@ -1653,7 +1653,7 @@ public class AHSniper extends Module {
 
     private String createSimpleTestMessage() {
         String playerName = this.mc.player != null ? this.mc.player.getName().getString() : "Unknown";
-        String webhookUsernameHardcoded = "Glazed AH Sniper";
+        String webhookUsernameHardcoded = "Blazed AH Sniper";
         return String.format("{\"content\":\"Webhook Test - AH Sniper is working for **%s**!\",\"username\":\"%s\"}",
             this.escapeJson(playerName), this.escapeJson(webhookUsernameHardcoded));
     }

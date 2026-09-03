@@ -1,4 +1,4 @@
-package com.nnpg.glazed;
+package com.ayan7601.blazed;
 
 import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.item.ItemStack;

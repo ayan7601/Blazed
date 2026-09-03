@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -42,7 +42,7 @@ public class AutoPearlChain extends Module {
     private double lastX, lastY, lastZ;
 
     public AutoPearlChain() {
-        super(GlazedAddon.CATEGORY, "auto-pearl-chain", "Chains pearls after teleport detection.");
+        super(BlazedAddon.CATEGORY, "auto-pearl-chain", "Chains pearls after teleport detection.");
     }
 
     @Override

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
@@ -155,7 +155,7 @@ public class BlockNotifier extends Module {
     private int total_blocks_found = 0;
 
     public BlockNotifier() {
-        super(GlazedAddon.esp, "block-notifier", "Notifies when specific blocks are detected with multiple notification options and visual ESP.");
+        super(BlazedAddon.esp, "block-notifier", "Notifies when specific blocks are detected with multiple notification options and visual ESP.");
     }
 
     @Override

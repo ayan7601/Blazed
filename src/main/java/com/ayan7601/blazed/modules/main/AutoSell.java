@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -52,7 +52,7 @@ public class AutoSell extends Module {
     private boolean shouldReopen = false;
 
     public AutoSell() {
-        super(GlazedAddon.CATEGORY, "auto-sell", "Automatically sells items.");
+        super(BlazedAddon.CATEGORY, "auto-sell", "Automatically sells items.");
     }
 
     @Override

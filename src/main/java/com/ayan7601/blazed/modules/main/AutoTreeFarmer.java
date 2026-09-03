@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -224,7 +224,7 @@ public class AutoTreeFarmer extends Module {
     private int lastHarvestedLogs = 0;
 
     public AutoTreeFarmer() {
-        super(GlazedAddon.CATEGORY, "auto-tree-farmer", "Automatically farms 2x2 trees with improved state detection.");
+        super(BlazedAddon.CATEGORY, "auto-tree-farmer", "Automatically farms 2x2 trees with improved state detection.");
     }
 
     @Override

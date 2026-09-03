@@ -1,10 +1,10 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.settings.RandomBetweenIntSetting;
-import com.nnpg.glazed.settings.TextDisplaySetting;
-import com.nnpg.glazed.utils.RandomBetweenInt;
-import com.nnpg.glazed.utils.glazed.StringUtils;
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.settings.RandomBetweenIntSetting;
+import com.ayan7601.blazed.settings.TextDisplaySetting;
+import com.ayan7601.blazed.utils.RandomBetweenInt;
+import com.ayan7601.blazed.utils.blazed.StringUtils;
 import meteordevelopment.meteorclient.events.game.OpenScreenEvent;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -23,7 +23,7 @@ import net.minecraft.screen.slot.SlotActionType;
 public class UIHelper extends Module {
 
     public UIHelper() {
-        super(GlazedAddon.CATEGORY,
+        super(BlazedAddon.CATEGORY,
                 "ui-helper",
                 "Helps perform various UI tasks automatically."
         );

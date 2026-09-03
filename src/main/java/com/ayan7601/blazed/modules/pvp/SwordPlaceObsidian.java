@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
@@ -19,7 +19,7 @@ public class SwordPlaceObsidian extends Module {
     private int previousSlot = -1;
 
     public SwordPlaceObsidian() {
-        super(GlazedAddon.pvp, "sword-obi-place", "Right-click with sword to place obsidian, then switch back.");
+        super(BlazedAddon.pvp, "sword-obi-place", "Right-click with sword to place obsidian, then switch back.");
     }
 
     @EventHandler

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -202,7 +202,7 @@ public class SpawnerProtect extends Module {
     private long respawnWaitStart = -1;
     private final Set<BlockPos> invalidSpawners = new HashSet<>();
     public SpawnerProtect() {
-        super(GlazedAddon.CATEGORY, "spawner-protect",
+        super(BlazedAddon.CATEGORY, "spawner-protect",
                 "Breaks spawners and puts them in your inv when a player is detected");
     }
 
@@ -1008,7 +1008,7 @@ public class SpawnerProtect extends Module {
 
         return String.format("""
                 {
-                    "username": "Glazed Webhook",
+                    "username": "Blazed Webhook",
                     "avatar_url": "https://i.imgur.com/OL2y1cr.png",
                     "content": "%s",
                     "embeds": [{
@@ -1017,7 +1017,7 @@ public class SpawnerProtect extends Module {
                         "color": %d,
                         "timestamp": "%s",
                         "footer": {
-                            "text": "Sent by Glazed"
+                            "text": "Sent by Blazed"
                         }
                     }]
                 }""",

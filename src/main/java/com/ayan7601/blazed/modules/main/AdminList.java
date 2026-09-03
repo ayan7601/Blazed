@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.settings.Setting;
 import meteordevelopment.meteorclient.settings.SettingGroup;
 import meteordevelopment.meteorclient.settings.StringListSetting;
@@ -19,7 +19,7 @@ public class AdminList extends Module {
             .build());
 
     public AdminList() {
-        super(GlazedAddon.CATEGORY, "admin-list", "List of administrators to be ignored by other modules.");
+        super(BlazedAddon.CATEGORY, "admin-list", "List of administrators to be ignored by other modules.");
     }
 
     public boolean isAdmin(String name) {

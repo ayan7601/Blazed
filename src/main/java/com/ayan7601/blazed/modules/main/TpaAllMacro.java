@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -66,7 +66,7 @@ public class TpaAllMacro extends Module {
     }
 
     public TpaAllMacro() {
-        super(GlazedAddon.CATEGORY, "tpa-all-macro", "Cycles through all online players and sends /tpa or /tpahere with optional GUI confirmation.");
+        super(BlazedAddon.CATEGORY, "tpa-all-macro", "Cycles through all online players and sends /tpa or /tpahere with optional GUI confirmation.");
     }
 
     @Override

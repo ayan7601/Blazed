@@ -1,7 +1,7 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.VersionUtil;
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.VersionUtil;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -106,7 +106,7 @@ public class WanderingESP extends Module {
         .build();
 
     public WanderingESP() {
-        super(GlazedAddon.esp, "wandering-esp", "Detects wandering traders in the world");
+        super(BlazedAddon.esp, "wandering-esp", "Detects wandering traders in the world");
     }
 
     @EventHandler
@@ -220,7 +220,7 @@ public class WanderingESP extends Module {
                         "{\"name\":\"Coordinates\",\"value\":\"%s\",\"inline\":false}," +
                         "{\"name\":\"Time\",\"value\":\"<t:%d:R>\",\"inline\":true}" +
                         "]," +
-                        "\"footer\":{\"text\":\"Sent by Glazed\"}" +
+                        "\"footer\":{\"text\":\"Sent by Blazed\"}" +
                         "}]}",
                     messageContent.replace("\"", "\\\""),
                     description.replace("\"", "\\\""),

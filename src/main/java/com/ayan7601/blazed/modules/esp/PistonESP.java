@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
@@ -139,7 +139,7 @@ public class PistonESP extends Module {
     private ExecutorService threadPool;
 
     public PistonESP() {
-        super(GlazedAddon.esp, "piston-esp", "ESP for pistons and sticky pistons with threading and tracer support.");
+        super(BlazedAddon.esp, "piston-esp", "ESP for pistons and sticky pistons with threading and tracer support.");
     }
 
     @Override

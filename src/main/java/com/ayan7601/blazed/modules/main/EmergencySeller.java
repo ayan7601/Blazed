@@ -1,7 +1,7 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.VersionUtil;
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.VersionUtil;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -56,7 +56,7 @@ public class EmergencySeller extends Module {
     private Item currentItem;
 
     public EmergencySeller() {
-        super(GlazedAddon.CATEGORY, "emergency-seller", "Panic sell selected items.");
+        super(BlazedAddon.CATEGORY, "emergency-seller", "Panic sell selected items.");
     }
 
     @Override

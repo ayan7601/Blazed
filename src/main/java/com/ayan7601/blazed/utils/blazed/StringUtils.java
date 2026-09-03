@@ -1,4 +1,4 @@
-package com.nnpg.glazed.utils.glazed;
+package com.ayan7601.blazed.utils.blazed;
 
 public class StringUtils {
     public static String convertUnicodeToAscii(String text) {

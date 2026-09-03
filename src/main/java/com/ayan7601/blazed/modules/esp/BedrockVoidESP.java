@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
@@ -113,7 +113,7 @@ public class BedrockVoidESP extends Module {
     );
 
     public BedrockVoidESP() {
-        super(GlazedAddon.esp,
+        super(BlazedAddon.esp,
             "bedrock-void-esp",
             "Finds voids in bedrock layers. Useful for indicating places" +
                 "where spawners may be un-raidable if located there."

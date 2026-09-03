@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -47,7 +47,7 @@ public class OrderDropper extends Module {
     private boolean foundTargetItem = false;
 
     public OrderDropper() {
-        super(GlazedAddon.CATEGORY, "order-dropper", "Automatically processes orders and drops specified items.");
+        super(BlazedAddon.CATEGORY, "order-dropper", "Automatically processes orders and drops specified items.");
     }
 
     @Override

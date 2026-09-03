@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render2DEvent;
 import meteordevelopment.meteorclient.renderer.Renderer2D;
 import meteordevelopment.meteorclient.renderer.text.TextRenderer;
@@ -107,7 +107,7 @@ public class RegionMap extends Module {
     private final PlayerTracker playerTracker;
 
     public RegionMap() {
-        super(GlazedAddon.esp, "region-map",
+        super(BlazedAddon.esp, "region-map",
                 "DonutSMP region map and shows you your location");
 
         this.mapData = new MapDataManager();

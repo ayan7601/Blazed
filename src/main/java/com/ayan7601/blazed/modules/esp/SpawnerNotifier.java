@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
@@ -163,7 +163,7 @@ public class SpawnerNotifier extends Module {
     private int total_spawners_found = 0;
 
     public SpawnerNotifier() {
-        super(GlazedAddon.esp, "spawner-notifier", "Notifies when spawners are detected with multiple notification options and visual ESP");
+        super(BlazedAddon.esp, "spawner-notifier", "Notifies when spawners are detected with multiple notification options and visual ESP");
     }
 
     @Override

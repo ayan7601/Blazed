@@ -1,13 +1,13 @@
-package com.nnpg.glazed.mixins;
+package com.ayan7601.blazed.mixins;
 
-import com.nnpg.glazed.gui.widgets.WRandomBetweenDoubleEdit;
-import com.nnpg.glazed.gui.widgets.WRandomBetweenIntEdit;
-import com.nnpg.glazed.gui.widgets.WTextBox;
-import com.nnpg.glazed.settings.RandomBetweenDoubleSetting;
-import com.nnpg.glazed.settings.RandomBetweenIntSetting;
-import com.nnpg.glazed.settings.TextDisplaySetting;
-import com.nnpg.glazed.utils.RandomBetweenDouble;
-import com.nnpg.glazed.utils.RandomBetweenInt;
+import com.ayan7601.blazed.gui.widgets.WRandomBetweenDoubleEdit;
+import com.ayan7601.blazed.gui.widgets.WRandomBetweenIntEdit;
+import com.ayan7601.blazed.gui.widgets.WTextBox;
+import com.ayan7601.blazed.settings.RandomBetweenDoubleSetting;
+import com.ayan7601.blazed.settings.RandomBetweenIntSetting;
+import com.ayan7601.blazed.settings.TextDisplaySetting;
+import com.ayan7601.blazed.utils.RandomBetweenDouble;
+import com.ayan7601.blazed.utils.RandomBetweenInt;
 import meteordevelopment.meteorclient.gui.DefaultSettingsWidgetFactory;
 import meteordevelopment.meteorclient.gui.GuiTheme;
 import meteordevelopment.meteorclient.gui.renderer.GuiRenderer;

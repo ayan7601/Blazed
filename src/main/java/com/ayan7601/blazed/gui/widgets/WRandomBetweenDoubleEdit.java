@@ -1,4 +1,4 @@
-package com.nnpg.glazed.gui.widgets;
+package com.ayan7601.blazed.gui.widgets;
 
 import meteordevelopment.meteorclient.gui.GuiTheme;
 import meteordevelopment.meteorclient.gui.widgets.containers.WHorizontalList;

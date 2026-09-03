@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent.Post;
 import meteordevelopment.meteorclient.settings.BoolSetting;
 import meteordevelopment.meteorclient.settings.Setting;
@@ -31,7 +31,7 @@ public class FreecamMining extends Module {
    private final Setting<Double> reach;
 
    public FreecamMining() {
-      super(GlazedAddon.CATEGORY, "freecam-mining", "Freecam with real-position mining override.");
+      super(BlazedAddon.CATEGORY, "freecam-mining", "Freecam with real-position mining override.");
       this.sgGeneral = this.settings.getDefaultGroup();
       this.notifications = this.sgGeneral.add(new BoolSetting.Builder().name("notifications").description("Show chat feedback.").defaultValue(true).build());
       this.reach = this.sgGeneral.add(

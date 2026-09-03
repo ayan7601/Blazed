@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
 import meteordevelopment.meteorclient.settings.IntSetting;
@@ -65,7 +65,7 @@ public class SpawnerDropper extends Module {
     private static final int CHECK_DELAY = 3;
 
     public SpawnerDropper() {
-        super(GlazedAddon.CATEGORY, "spawner-dropper", "Drops all items from spawners");
+        super(BlazedAddon.CATEGORY, "spawner-dropper", "Drops all items from spawners");
     }
 
     private boolean hasArrowsInInventory(HandledScreen<?> screen) {

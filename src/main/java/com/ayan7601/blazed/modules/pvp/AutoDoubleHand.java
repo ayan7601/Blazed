@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
@@ -13,7 +13,7 @@ public class AutoDoubleHand extends Module {
     private boolean wasHoldingTotem = true;
 
     public AutoDoubleHand() {
-        super(GlazedAddon.pvp, "auto-double-hand", "After pop, switches to totem");
+        super(BlazedAddon.pvp, "auto-double-hand", "After pop, switches to totem");
     }
 
     @Override

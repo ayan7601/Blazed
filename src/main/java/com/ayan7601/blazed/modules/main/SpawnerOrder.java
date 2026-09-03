@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -87,7 +87,7 @@ public class SpawnerOrder extends Module {
     private long lastDropTime = 0;
 
     public SpawnerOrder() {
-        super(GlazedAddon.CATEGORY, "spawner-order", "Order All Spawner Loot.");
+        super(BlazedAddon.CATEGORY, "spawner-order", "Order All Spawner Loot.");
     }
 
     private boolean isGreenGlass(net.minecraft.item.ItemStack stack) {

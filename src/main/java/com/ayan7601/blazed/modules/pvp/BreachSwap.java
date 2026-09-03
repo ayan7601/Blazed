@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.entity.player.AttackEntityEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
@@ -62,7 +62,7 @@ public class BreachSwap extends Module {
     private int prevSlot = -1;
     private int dDelay = 0;
     public BreachSwap() {
-        super(GlazedAddon.pvp, "breach-swap", "Swaps with the breach mace in a target slot on attack");
+        super(BlazedAddon.pvp, "breach-swap", "Swaps with the breach mace in a target slot on attack");
     }
 
     private int findBreachMace() {
@@ -122,7 +122,7 @@ public class BreachSwap extends Module {
         
         if (swapBack.get()) {
             // PlayerInventory no longer exposes getSelectedSlot(); use the selectedSlot field instead
-            prevSlot = com.nnpg.glazed.utils.InventoryUtils.getSelectedSlot(mc.player.getInventory());
+            prevSlot = com.ayan7601.blazed.utils.InventoryUtils.getSelectedSlot(mc.player.getInventory());
         }
 
         if (autoSwap.get()) {

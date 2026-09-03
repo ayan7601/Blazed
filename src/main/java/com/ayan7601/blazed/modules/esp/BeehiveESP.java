@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
@@ -164,7 +164,7 @@ public class BeehiveESP extends Module {
     private ExecutorService threadPool;
 
     public BeehiveESP() {
-        super(GlazedAddon.esp, "beehive-esp", "ESP for beehives and bee nests when full of honey with threading and tracer support.");
+        super(BlazedAddon.esp, "beehive-esp", "ESP for beehives and bee nests when full of honey with threading and tracer support.");
     }
 
     @Override

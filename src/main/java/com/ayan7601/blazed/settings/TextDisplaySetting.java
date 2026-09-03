@@ -1,4 +1,4 @@
-package com.nnpg.glazed.settings;
+package com.ayan7601.blazed.settings;
 
 import meteordevelopment.meteorclient.settings.*;
 import net.minecraft.nbt.NbtCompound;

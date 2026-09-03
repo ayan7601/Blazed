@@ -1,9 +1,9 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.MeteorClient;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
 import meteordevelopment.meteorclient.gui.GuiTheme;
@@ -135,7 +135,7 @@ public class AdvancedStashFinder extends Module {
         .build();
 
     public AdvancedStashFinder() {
-        super(GlazedAddon.esp, "advanced-stash-finder", "Advanced stash finder with webhook support and auto-disconnect.");
+        super(BlazedAddon.esp, "advanced-stash-finder", "Advanced stash finder with webhook support and auto-disconnect.");
     }
 
     @Override

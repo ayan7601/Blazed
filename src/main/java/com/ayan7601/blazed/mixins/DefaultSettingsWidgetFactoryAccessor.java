@@ -1,4 +1,4 @@
-package com.nnpg.glazed.mixins;
+package com.ayan7601.blazed.mixins;
 
 import meteordevelopment.meteorclient.gui.utils.SettingsWidgetFactory;
 import meteordevelopment.meteorclient.settings.Setting;

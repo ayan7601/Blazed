@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -134,7 +134,7 @@ public class PlayerDetection extends Module {
         .build();
 
     public PlayerDetection() {
-        super(GlazedAddon.CATEGORY, "player-detection", "Detects when players are in the world");
+        super(BlazedAddon.CATEGORY, "player-detection", "Detects when players are in the world");
     }
 
     @EventHandler
@@ -261,7 +261,7 @@ public class PlayerDetection extends Module {
                         "{\"name\":\"Server\",\"value\":\"%s\",\"inline\":true}," +
                         "{\"name\":\"Time\",\"value\":\"<t:%d:R>\",\"inline\":true}%s" +
                         "]," +
-                        "\"footer\":{\"text\":\"Sent by Glazed\"}" +
+                        "\"footer\":{\"text\":\"Sent by Blazed\"}" +
                         "}]}",
                     messageContent.replace("\"", "\\\""),
                     playerList.replace("\"", "\\\""),

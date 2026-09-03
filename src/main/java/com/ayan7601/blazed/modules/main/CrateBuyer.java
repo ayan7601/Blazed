@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.BoolSetting;
 import meteordevelopment.meteorclient.settings.EnumSetting;
@@ -69,7 +69,7 @@ public class CrateBuyer extends Module {
     private static final int CONFIRM_SLOT_SHOVEL = 15;
 
     public CrateBuyer() {
-        super(GlazedAddon.CATEGORY, "crate-buyer", "Automatically buys items from the common crate");
+        super(BlazedAddon.CATEGORY, "crate-buyer", "Automatically buys items from the common crate");
     }
 
     @EventHandler

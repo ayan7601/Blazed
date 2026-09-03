@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -61,7 +61,7 @@ public class SkeletonESP extends Module {
     );
 
     public SkeletonESP() {
-        super(GlazedAddon.esp, "skeleton-esp", "Renders player skeletons inside players with correct offsets & rotation (no legs).");
+        super(BlazedAddon.esp, "skeleton-esp", "Renders player skeletons inside players with correct offsets & rotation (no legs).");
     }
 
     @EventHandler

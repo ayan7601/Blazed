@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.orbit.EventHandler;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -12,7 +12,7 @@ public class HideScoreboard extends Module {
     private ScoreboardObjective savedObjective = null;
 
     public HideScoreboard() {
-        super(GlazedAddon.CATEGORY, "hide-scoreboard", "Hides the sidebar scoreboard.");
+        super(BlazedAddon.CATEGORY, "hide-scoreboard", "Hides the sidebar scoreboard.");
     }
 
     @EventHandler

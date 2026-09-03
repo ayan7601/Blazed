@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.DoubleSetting;
 import meteordevelopment.meteorclient.settings.IntSetting;
@@ -54,7 +54,7 @@ public class DoubleAnchorMacro extends Module {
     private boolean wasPressed = false;
 
     public DoubleAnchorMacro() {
-        super(GlazedAddon.pvp, "double-anchor", "Automatically places and charges 2 anchors.");
+        super(BlazedAddon.pvp, "double-anchor", "Automatically places and charges 2 anchors.");
     }
 
     @EventHandler

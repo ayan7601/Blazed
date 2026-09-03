@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
@@ -124,7 +124,7 @@ public class RTPNetherBaseFinder extends Module {
     private final HttpClient httpClient = HttpClient.newBuilder().connectTimeout(Duration.ofSeconds(10)).build();
 
     public RTPNetherBaseFinder() {
-        super(GlazedAddon.CATEGORY, "rtp-nether-base-finder", "Continuously RTPs to the Nether and searches for stashes.");
+        super(BlazedAddon.CATEGORY, "rtp-nether-base-finder", "Continuously RTPs to the Nether and searches for stashes.");
     }
 
     @Override

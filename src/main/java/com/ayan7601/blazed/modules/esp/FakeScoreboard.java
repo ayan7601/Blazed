@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FakeScoreboard extends Module {
-    private static final String SCOREBOARD_NAME = "glazed_custom";
+    private static final String SCOREBOARD_NAME = "blazed_custom";
     private ScoreboardObjective customObjective;
     private ScoreboardObjective originalObjective;
     private final MinecraftClient mc = MinecraftClient.getInstance();
@@ -36,7 +36,7 @@ public class FakeScoreboard extends Module {
 
     private final Setting<String> title = sgStats.add(new StringSetting.Builder()
             .name("title")
-            .defaultValue("Glazed on top")
+            .defaultValue("Blazed on top")
             .onChanged(s -> safeUpdate())
             .build());
 
@@ -78,18 +78,18 @@ public class FakeScoreboard extends Module {
 
     private final Setting<String> team = sgStats.add(new StringSetting.Builder()
             .name("team")
-            .defaultValue("Glazed on top")
+            .defaultValue("Blazed on top")
             .onChanged(s -> safeUpdate())
             .build());
 
     private final Setting<String> footer = sgStats.add(new StringSetting.Builder()
             .name("footer")
-            .defaultValue(" Glazed(67ms)")
+            .defaultValue(" Blazed(67ms)")
             .onChanged(s -> safeUpdate())
             .build());
 
     public FakeScoreboard() {
-        super(GlazedAddon.esp, "fake-scoreboard", "Custom scoreboard overlay for Glazed.");
+        super(BlazedAddon.esp, "fake-scoreboard", "Custom scoreboard overlay for Blazed.");
     }
 
     private void safeUpdate() {
@@ -192,7 +192,7 @@ public class FakeScoreboard extends Module {
             List<MutableText> entries = generateEntriesText();
 
             for (int i = 0; i < entries.size(); i++) {
-                String teamName = "glazed_team_" + i;
+                String teamName = "blazed_team_" + i;
                 teamNames.add(teamName);
 
                 Team t = scoreboard.getTeam(teamName);

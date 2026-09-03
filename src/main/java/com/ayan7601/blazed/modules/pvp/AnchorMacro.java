@@ -1,14 +1,14 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
-import com.nnpg.glazed.VersionUtil;
+import com.ayan7601.blazed.BlazedAddon;
+import com.ayan7601.blazed.VersionUtil;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
 import meteordevelopment.meteorclient.utils.player.FindItemResult;
 import meteordevelopment.meteorclient.utils.player.InvUtils;
-import com.nnpg.glazed.utils.glazed.KeyUtils;
-import com.nnpg.glazed.utils.glazed.BlockUtil;
+import com.ayan7601.blazed.utils.blazed.KeyUtils;
+import com.ayan7601.blazed.utils.blazed.BlockUtil;
 import meteordevelopment.orbit.EventHandler;
 import net.minecraft.block.Blocks;
 import net.minecraft.component.DataComponentTypes;
@@ -67,7 +67,7 @@ public class AnchorMacro extends Module {
     private BlockHitResult lastBlockHitResult = null;
 
     public AnchorMacro() {
-        super(GlazedAddon.pvp, "anchor-macro", "Automatically charges and explodes respawn anchors.");
+        super(BlazedAddon.pvp, "anchor-macro", "Automatically charges and explodes respawn anchors.");
     }
 
     @Override

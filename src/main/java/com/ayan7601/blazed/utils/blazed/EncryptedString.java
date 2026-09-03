@@ -1,4 +1,4 @@
-package com.nnpg.glazed.utils.glazed;
+package com.ayan7601.blazed.utils.blazed;
 
 import org.jetbrains.annotations.NotNull;
 

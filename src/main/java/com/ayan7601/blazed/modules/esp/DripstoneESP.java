@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
@@ -138,7 +138,7 @@ public class DripstoneESP extends Module {
     private ExecutorService threadPool;
 
     public DripstoneESP() {
-        super(GlazedAddon.esp, "dripstone-esp", "ESP for long dripstone stalactites and stalagmites with threading support.");
+        super(BlazedAddon.esp, "dripstone-esp", "ESP for long dripstone stalactites and stalagmites with threading support.");
     }
 
     @Override

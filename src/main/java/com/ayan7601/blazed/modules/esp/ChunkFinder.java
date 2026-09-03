@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
@@ -297,7 +297,7 @@ public class ChunkFinder extends Module {
     private long lastCleanup = 0;
 
     public ChunkFinder() {
-        super(GlazedAddon.esp, "chunk-finder", "ChunkFinderV4");
+        super(BlazedAddon.esp, "chunk-finder", "ChunkFinderV4");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.nnpg.glazed.utils.glazed;
+package com.ayan7601.blazed.utils.blazed;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

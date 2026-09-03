@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.renderer.ShapeMode;
@@ -84,7 +84,7 @@ public class CoveredHole extends Module {
     private String currentWorld = "";
 
     public CoveredHole() {
-        super(GlazedAddon.esp, "covered-hole", "Detects covered holes from HoleTunnelStairsESP with performance optimization.");
+        super(BlazedAddon.esp, "covered-hole", "Detects covered holes from HoleTunnelStairsESP with performance optimization.");
     }
 
     @Override

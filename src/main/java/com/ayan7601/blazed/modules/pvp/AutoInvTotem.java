@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.game.GameJoinedEvent;
 import meteordevelopment.meteorclient.events.game.OpenScreenEvent;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
@@ -86,7 +86,7 @@ public class AutoInvTotem extends Module {
     private boolean invAutoOpened = false;
 
     public AutoInvTotem() {
-        super(GlazedAddon.pvp, "auto-inv-totem", "Automatically moves totems to offhand when inventory is opened after totem pop.");
+        super(BlazedAddon.pvp, "auto-inv-totem", "Automatically moves totems to offhand when inventory is opened after totem pop.");
     }
 
     @Override

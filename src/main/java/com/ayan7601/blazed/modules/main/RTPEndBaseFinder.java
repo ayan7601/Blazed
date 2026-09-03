@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.game.GameLeftEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -144,7 +144,7 @@ public class RTPEndBaseFinder extends Module {
         .build();
 
     public RTPEndBaseFinder() {
-        super(GlazedAddon.CATEGORY, "rtp-end-base-finder", "Continuously RTPs to the End and searches for stashes.");
+        super(BlazedAddon.CATEGORY, "rtp-end-base-finder", "Continuously RTPs to the End and searches for stashes.");
     }
 
     @Override

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
@@ -46,7 +46,7 @@ public class KelpESP extends Module {
     private final Set<ChunkPos> flaggedKelpChunks = new HashSet<>();
 
     public KelpESP() {
-        super(GlazedAddon.esp, "kelp-esp", "ESP for kelp chunks with suspicious patterns.");
+        super(BlazedAddon.esp, "kelp-esp", "ESP for kelp chunks with suspicious patterns.");
     }
 
     @Override

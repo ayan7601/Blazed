@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.esp;
+package com.ayan7601.blazed.modules.esp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.BlockUpdateEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
@@ -137,7 +137,7 @@ public class ClusterFinder extends Module {
     private ExecutorService threadPool;
 
     public ClusterFinder() {
-        super(GlazedAddon.esp, "cluster-finder", "ESP for amethyst clusters and buds with threading and tracer support.");
+        super(BlazedAddon.esp, "cluster-finder", "ESP for amethyst clusters and buds with threading and tracer support.");
     }
 
     @Override

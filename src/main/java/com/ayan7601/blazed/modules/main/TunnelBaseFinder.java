@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.events.world.ChunkDataEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -195,7 +195,7 @@ public class TunnelBaseFinder extends Module {
     private boolean playerWasAlive = true;
 
     public TunnelBaseFinder() {
-        super(GlazedAddon.CATEGORY, "tunnel-base-finder", "RTPs, mines to a Y level, and then uses #tunnel to mine horizontally.");
+        super(BlazedAddon.CATEGORY, "tunnel-base-finder", "RTPs, mines to a Y level, and then uses #tunnel to mine horizontally.");
     }
 
     private boolean isAnyWebhookEnabled() {
@@ -502,7 +502,7 @@ public class TunnelBaseFinder extends Module {
             String jsonPayload = String.format("""
                 {
                   "content": "%s",
-                  "username": "Glazed Webhook",
+                  "username": "Blazed Webhook",
                   "avatar_url": "https://i.imgur.com/OL2y1cr.png",
                   "embeds": [
                     {
@@ -512,7 +512,7 @@ public class TunnelBaseFinder extends Module {
                       "author": {
                         "name": "Base Alert"
                       },
-                      "footer": { "text": "Sent by Glazed" }
+                      "footer": { "text": "Sent by Blazed" }
                     }
                   ]
                 }
@@ -534,7 +534,7 @@ public class TunnelBaseFinder extends Module {
             String jsonPayload = String.format("""
                 {
                   "content": "%s",
-                  "username": "Glazed Webhook",
+                  "username": "Blazed Webhook",
                   "avatar_url": "https://i.imgur.com/OL2y1cr.png",
                   "embeds": [
                     {
@@ -544,7 +544,7 @@ public class TunnelBaseFinder extends Module {
                       "author": {
                         "name": "AutoTotem Alert"
                       },
-                      "footer": { "text": "Sent by Glazed" }
+                      "footer": { "text": "Sent by Blazed" }
                     }
                   ]
                 }
@@ -566,7 +566,7 @@ public class TunnelBaseFinder extends Module {
             String jsonPayload = String.format("""
                 {
                   "content": "%s",
-                  "username": "Glazed Webhook",
+                  "username": "Blazed Webhook",
                   "avatar_url": "https://i.imgur.com/OL2y1cr.png",
                   "embeds": [
                     {
@@ -576,7 +576,7 @@ public class TunnelBaseFinder extends Module {
                       "author": {
                         "name": "Death Alert"
                       },
-                      "footer": { "text": "Sent by Glazed" }
+                      "footer": { "text": "Sent by Blazed" }
                     }
                   ]
                 }

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.game.GameJoinedEvent;
 import meteordevelopment.meteorclient.events.packets.PacketEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
@@ -299,7 +299,7 @@ public class RTPer extends Module {
         .build();
 
     public RTPer() {
-        super(GlazedAddon.CATEGORY, "rtper", "RTP to specific coordinates or find specific biomes.");
+        super(BlazedAddon.CATEGORY, "rtper", "RTP to specific coordinates or find specific biomes.");
     }
 
     @Override
@@ -415,7 +415,7 @@ public class RTPer extends Module {
 
             if (disconnectOnReach.get()) {
                 if (notifications.get()) info("Disconnecting...");
-                disconnectWithMessage("Glazed: found requested biome");
+                disconnectWithMessage("Blazed: found requested biome");
             }
 
             toggle();
@@ -646,7 +646,7 @@ public class RTPer extends Module {
                                 }
                             ],
                             "footer": {
-                                "text": "RTPer by Glazed"
+                                "text": "RTPer by Blazed"
                             },
                             "timestamp": "%sZ"
                         }]

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.pvp;
+package com.ayan7601.blazed.modules.pvp;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.render.Render3DEvent;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
@@ -129,7 +129,7 @@ public class AimAssist extends Module {
     private Entity target;
 
     public AimAssist() {
-        super(GlazedAddon.pvp, "aim-assist", "Automatically aims at entities, with Grim AC v3 bypass.");
+        super(BlazedAddon.pvp, "aim-assist", "Automatically aims at entities, with Grim AC v3 bypass.");
     }
 
     @Override

@@ -1,6 +1,6 @@
-package com.nnpg.glazed.modules.main;
+package com.ayan7601.blazed.modules.main;
 
-import com.nnpg.glazed.GlazedAddon;
+import com.ayan7601.blazed.BlazedAddon;
 import meteordevelopment.meteorclient.events.world.TickEvent;
 import meteordevelopment.meteorclient.settings.*;
 import meteordevelopment.meteorclient.systems.modules.Module;
@@ -57,7 +57,7 @@ public class ShopBuyer extends Module {
     private boolean inBuyingScreen = false;
 
     public ShopBuyer() {
-        super(GlazedAddon.CATEGORY, "shop-buyer", "Automatically buys selected items from PVP shop category.");
+        super(BlazedAddon.CATEGORY, "shop-buyer", "Automatically buys selected items from PVP shop category.");
     }
 
     @Override
